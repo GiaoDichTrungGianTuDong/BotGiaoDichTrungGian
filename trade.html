@@ -1,0 +1,108 @@
+<html></html>
+<head>
+    <style>
+        body {
+            background-color: #ccffcc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 10px;
+            color: #333;
+        }
+        .room {
+            text-align: center;
+            background-color: #99ff99;
+            font-size: 24px;
+            margin: 10px auto;
+            padding: 10px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .column {
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .left {
+            background-color: #00cc66;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        .right {
+            background-color: #ff6600;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        .middle {
+            background-color: #ffffff;
+            text-align: center;
+            font-size: 18px;
+            padding: 10px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .info div {
+            width: 45%;
+            padding: 20px;
+            background-color: #00ccff;
+            font-size: 18px;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+        .info div::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-right-color: #00ccff;
+            border-left: 0;
+            border-top: 0;
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Giao dịch trung gian tự động, nói không với lừa đảo qua mạng</div>
+    <div class="room">Phòng 957884</div>
+    <div class="container">
+        <div class="column left">Bên mua</div>
+        <div class="column right">Bên bán</div>
+    </div>
+    <div class="middle">tiền trong vòng 3 ngày và<br>viết tiền nếu bị báo lỗi</div>
+    <div class="info">
+        <div>Chuyển tiền qua<br>0968550702<br>MB Bank<br>Hệ thống sẽ giữ tiền nếu<br>giao dịch thất bại sẽ trả lại<br>cho người mua</div>
+        <div>Nhập user và pass vào ô bên dưới<br>Người mua sẽ không xem được<br>giao dịch chưa hoàn tất</div>
+    </div>
+</body>
+</html>
